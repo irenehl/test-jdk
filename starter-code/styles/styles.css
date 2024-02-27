@@ -1,0 +1,44 @@
+*, ::after, ::before {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: max-content;
+    padding: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border: 2rem;
+    border-radius: 0.8rem;
+    border-color: darkblue;
+    padding: 2rem;
+    background-color: rosybrown;
+}
+
+.input {
+    border: none;
+    border-radius: 0.2rem;
+    padding: 6px;
+    ::placeholder {
+        color: white;
+    }
+}
+
+.search-btn {
+    border: 1rem;
+    border-color: darkblue;
+}
+
+.background-color {
+    color: darkblue;
+}

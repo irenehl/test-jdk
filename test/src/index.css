@@ -1,0 +1,138 @@
+*, ::after, ::before {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: max-content;
+  padding: 10px;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border: 2rem;
+  border-radius: 0.8rem;
+  border-color: darkblue;
+  padding: 2rem;
+  background-color: rosybrown;
+}
+
+.input {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 6px;
+  ::placeholder {
+      color: white;
+  }
+}
+
+.search-btn {
+  border: 1rem;
+  border-color: darkblue;
+}
+
+.background-color {
+  color: darkblue;
+}
+
+.card {
+  width: 650px;
+  border-radius: 10px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  color: #757e9b;
+  background-color: #1e2a48;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.card-content {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.card-avatar {
+  width: 25%;
+}
+
+.card-avatar img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.card-profile {
+  font-weight: 700;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10;
+}
+
+.card-profile-header {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.card-profile-header h1 {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.card-stats {
+  background-color: #141d30;
+  padding: 0.75rem;
+  border-radius: 10px;
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-stat {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.card-stat strong {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.card-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.card-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.card-footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
